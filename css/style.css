@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  top: 0px;
+}
+
+.container {
+  height: 750px;
+
+  background: url(../img/background.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to bottom, #000, transparent);
+}
+.left-nav {
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+  width: 75%;
+}
+
+.left-nav ul {
+  display: flex;
+  list-style: none;
+}
+.left-nav ul li {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.left-nav ul li a {
+  text-decoration: none;
+  color: rgb(160 153 153);
+  cursor: pointer;
+}
+.left-nav ul li a:hover {
+  color: white;
+}
+
+
+
+.left-nav img {
+  height: 30px;
+  padding-right: 20px;
+}
+
+/*Right Nav*/
+
+.right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  width: 25%;
+}
+
+.right-nav img {
+  height: 25px;
+}
+
+/*Icons*/
+#dvd,
+#search,
+#noti,
+#shreya {
+  padding: 0px 10px;
+}
+
+#dvd {
+  font-size: 0.9rem;
+}
+#shreya {
+  height: 30px;
+}
+#down {
+  height: 13px;
+}
+
+.click {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+/*Reader*/
+
+.reader {
+  color: white;
+  display: inline-block;
+  width: 47%;
+  text-align: center;
+}
+.reader p {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.buttons {
+  display: flex;
+  justify-content: left;
+  margin-left: 40px;
+  align-items: center;
+}
+.btn2 {
+  height: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+.btn2 img {
+  height: 20px;
+  margin: 0px 5px;
+}
+
+.btn1 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.btn1 img {
+  height: 15px;
+  margin: 0px 10px;
+}
+.buttons a {
+  text-decoration: none;
+}
